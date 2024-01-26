@@ -1,0 +1,125 @@
+/*_____________________________________________ Header styling ______________________________________________________*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #2874f0;
+  height: 56px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.header form[class="find"] input[type="search"] {
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  margin: 4.5px 0px 0px 95px;
+}
+
+.logo img {
+  width: 78px;
+  margin: inherit;
+}
+
+.find {
+  height: 38px;
+  width: 38vw;
+  margin: 9px 0 0 2vw;
+  border: none;
+  display: flex;
+}
+
+.find input {
+  padding: 10px;
+  height: inherit;
+  width: inherit;
+}
+input[type="search"] {
+  border: none;
+}
+
+.find button {
+  padding: 3px 10px 0px 10px;
+  background-color: #ffff;
+  border: none;
+}
+
+.find button:hover {
+  cursor: pointer;
+}
+button[type="submit"] i {
+  color: #2874f0;
+  font-size: larger;
+}
+
+.login {
+  background-color: #ffff;
+  height: 30px;
+  width: 8vw;
+  margin: 12px 0px 0px 3vw;
+}
+.login p {
+  color: #2874f0;
+  padding: 4px 0 0 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.links {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+.links a {
+  margin: 17px 0px 0px 3vw;
+  text-decoration: none;
+  color: #ffff;
+}
+
+/*_____________________________________________ First row styling ______________________________________________________*/
+.row_1 {
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+}
+.row_1 div {
+  cursor: pointer;
+  padding: 0 2vw 0 2vw;
+  height: 90px;
+  width: 75px;
+}
+.row_1 div img {
+  width: inherit;
+  cursor: pointer;
+}
+.row_1 div a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: small;
+  color: black;
+}
+div .text {
+  display: flex;
+  height: 6vh;
+  justify-content: center;
+  padding: 0;
+}
+div .text a {
+  white-space: nowrap;
+}
+
+/*_____________________________________________ Second row styling ______________________________________________________*/
+
+.slider {
+  margin: 3vh 0 0 0;
+  height: 40vh;
+  background-color: #f1f3f6;
+}
+.slider img{
+  margin: 2vh 2vh 2vh 2vh ;
+  width: 100%;
+  
+}
